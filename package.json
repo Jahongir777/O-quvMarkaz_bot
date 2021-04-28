@@ -1,0 +1,24 @@
+{
+  "name": "meExamplebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro-bot"
+  },
+  "engines": {
+    "node": "14.15.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "0.0.1",
+    "@telegraf/session": "^1.0.1",
+    "compression": "^1.7.4",
+    "helmet": "^4.5.0",
+    "micro-bot": "^2.5.3",
+    "telegraf": "^4.0.3",
+    "telegraf-session-local": "^2.1.0"
+  }
+}

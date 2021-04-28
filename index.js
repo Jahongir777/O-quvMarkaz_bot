@@ -212,11 +212,6 @@ bot.hears('☎️ Aloqa', async (ctx) => {
 }})})
   
  
-  
-  
-  
-
-
 bot.hears('🔝 Main Menu', async (ctx) => {
   return await ctx.reply('🔝 Main Menu', Markup
     .keyboard([
@@ -230,11 +225,9 @@ bot.hears('🔝 Main Menu', async (ctx) => {
 
 
 
-
 bot.hears('📍 Location', async (ctx) => {
   ctx.telegram.sendLocation(ctx.chat.id, 41.56044515274724, 60.607803062078204)
 })
-
 
 
 module.exports = bot
